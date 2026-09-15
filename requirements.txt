@@ -1,0 +1,24 @@
+# Runtime dependencies for voicefacebot.py
+#
+# Tested target: Python 3.13 on Windows.
+# Note: ffmpeg is an external executable, not a pip package. Install it
+# separately and add it to PATH for best video/audio muxing support.
+
+openai>=1.40.0,<3.0.0
+SpeechRecognition>=3.10.4,<4.0.0
+pygame>=2.6.1,<3.0.0
+gTTS>=2.5.4,<3.0.0
+
+# Face/camera emotion analysis
+mediapipe>=0.10.33,<0.11.0
+opencv-python>=4.10.0,<5.0.0
+
+# Voice emotion analysis
+numpy>=2.0.0,<3.0.0
+librosa>=0.11.0,<0.12.0
+soundfile>=0.12.1,<0.14.0
+scikit-learn>=1.7.0,<1.9.0
+PyAudio==0.2.14
+
+# Optional fallback when ffmpeg is not installed
+moviepy>=2.1.2,<3.0.0

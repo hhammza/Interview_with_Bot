@@ -1,0 +1,26 @@
+# Credentials and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.whl
+
+# JavaScript build and dependency outputs
+node_modules/
+.next/
+*.tsbuildinfo
+
+# Runtime artifacts and local captures
+recordings/
+transcripts/
+output.txt
+*.zip
+
+# Local databases and editor files
+*.sqlite3
+.vscode/
