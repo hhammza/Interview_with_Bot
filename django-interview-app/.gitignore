@@ -1,0 +1,104 @@
+# Python
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+eggs/
+.eggs/
+*.egg
+
+# Installers
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Pyre type checker
+.pyre/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Media and user-uploaded files
+backend/media/
+recordings/
+transcripts/
+
+# Node / frontend
+node_modules/
+.next/
+dist/
+build/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets and environment
+.env
+.env.*
+secrets.json
+*.pem
+*.key
+
+# Large model or binary blobs
+*.pkl
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.tflite
+
+# Audio/video temporary files
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.webm
+
+# Logs and runtime files
+*.log
+*.pid
+*.seed
+
+# Jupyter
+.ipynb_checkpoints
+
+# Coverage / reporting
+htmlcov/
+
+# Ignore IDE/runtime specific
+/.pytest_cache/
+
